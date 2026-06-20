@@ -1,0 +1,27 @@
+{
+  "name": "github-profile-analyzer-backend",
+  "version": "1.0.0",
+  "description": "Backend API for a GitHub Profile Analyzer SaaS — fetches GitHub profile/repo data and generates an AI-powered recruiter-style analysis.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "github",
+    "express",
+    "ai",
+    "profile-analyzer"
+  ],
+  "license": "MIT"
+}
