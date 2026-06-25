@@ -27,6 +27,7 @@ export const env = {
   // With a token, the limit jumps to 5000 requests/hour.
   GITHUB_TOKEN: process.env.GITHUB_TOKEN || null,
   NVIDIA_API_KEY: process.env.NVIDIA_API_KEY || null,
+  GEMINI_API_KEY: process.env.GEMINI_API_KEY || null,
 
   // TODO: When you add more AI providers, register their keys here too.
   // Example:
